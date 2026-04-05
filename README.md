@@ -62,6 +62,6 @@ java CadVeiculos
 
 
 * Autores: Pedro Henrique Fernandes Polita - RA 1138911
-           Gabriel Nunes dos Santos - RA  
+           Gabriel Nunes dos Santos - RA 1137876
 
 Desenvolvido como atividade prática da disciplina de Programação.
