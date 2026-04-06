@@ -1,67 +1,15 @@
-* CadVeículos
+Sistema de Cadastro de Veículos
 
- Sistema de cadastro de veículos desenvolvido em Java como atividade prática de programação.
+Este projeto é uma evolução de um sistema de cadastro de veículos desenvolvido em Java durante as aulas práticas. O objetivo é aplicar conceitos básicos de programação, como estruturas de repetição, condicionais, manipulação de listas e implementação de algoritmos manuais de ordenação e busca.
 
+Funcionalidades Implementadas
+- Cadastro de Veículos: Com validação para evitar nomes vazios ou duplicados (ignora maiúsculas/minúsculas).
+- Listagem Ordenada: Exibição da lista em ordem alfabética utilizando algoritmo de ordenação manual.
+- Busca por Nome: Localização de veículos cadastrados na lista.
+- Edição de Dados: Permite alterar o nome de um veículo existente por meio do seu índice.
+- Remoção Flexível: Opções para remover veículos tanto pelo índice quanto pelo nome.
+- Controle de Fluxo: Mensagens informativas para listas vazias e exibição do total de veículos cadastrados.
 
-
-* Sobre o Projeto
-
- **CadVeículos** é um sistema de gerenciamento de veículos via terminal, desenvolvido em Java. O programa permite cadastrar, listar, buscar, editar e remover veículos de forma simples e interativa, utilizando um menu com `switch/do-while`.
-
-
-
-* Funcionalidades
-
-| Opção | Funcionalidade |
-| 1 | Cadastrar veículo (com validação de duplicatas) |
-| 2 | Listar todos os veículos em ordem alfabética |
-| 3 | Buscar veículo por nome |
-| 4 | Editar nome de um veículo existente |
-| 5 | Remover veículo por número |
-| 6 | Remover veículo por nome |
-| 0 | Sair do sistema |
-
-
-* Tecnologias Utilizadas
-
-- **Java** (versão 21+)
-- `ArrayList` e `List` para armazenamento dos dados
-- Estruturas básicas: `for`, `if`, `switch`, `do-while`
-
-
-* Estrutura do Projeto
-
-CadVeiculos/
-├── CadVeiculos.java   # arquivo principal com o menu e todas as funcionalidades
-└── Input.java         # classe auxiliar para leitura de dados do teclado
-
-
-
-* Como Executar
-
-**1. Clone ou baixe os arquivos do projeto**
-
-**2. Compile os arquivos:**
-```bash
-javac Input.java CadVeiculos.java
-```
-
-**3. Execute o programa:**
-```bash
-java CadVeiculos
-```
-
----
-
-* Detalhes de Implementação
-
-- **Validação de duplicatas:** o sistema impede o cadastro de veículos com nomes iguais, ignorando diferenças entre maiúsculas e minúsculas.
-- **Ordenação alfabética:** implementada manualmente com Bubble Sort usando `for` e variável auxiliar — sem uso de `Collections.sort()` ou similares.
-- **Busca e comparação case-insensitive:** feitas com `.toLowerCase().equals()`.
-- **Lista vazia:** todas as operações verificam se há veículos cadastrados antes de prosseguir.
-
-
-* Autores: Pedro Henrique Fernandes Polita - RA 1138911
-           Gabriel Nunes dos Santos - RA 1137876
-
-Desenvolvido como atividade prática da disciplina de Programação.
+Integrantes:
+Gabriel Nunes dos Santos - 1137876
+Pedro Henrique Fernandes Polita - 1138911
